@@ -1,5 +1,5 @@
 ## Dockerfile for a haskell environment
-FROM       debian:stretch
+FROM       debian:buster-slim
 
 ## ensure locale is set during build
 ENV LANG            C.UTF-8
